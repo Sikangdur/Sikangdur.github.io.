@@ -1,0 +1,355 @@
+/* Home */
+    .bold {
+        font-weight: 600;
+        font-size: 22px;
+    }
+    .pberita {
+        font-size: 16px;
+    }
+    .ptentang {
+        font-size: 17px;
+    }
+    .berita {
+        background: #ffffff ;
+        border-radius: 4px;
+        box-shadow: 0 0 1px rgba(0, 0, 0, 0.5);
+        height: auto;
+        padding: 20px;
+        margin: 10px;
+    }
+    .subberita {
+        background: #ffffff;
+        border-radius: 4px;
+        box-shadow: 0 0 1px rgba(0, 0, 0, 0.5);
+        padding: 20px;
+        margin: 10px;
+    }
+    .subberita img {
+        margin-right: 10px;
+        width: 120px;
+    }
+    .home{
+        padding: 30px;
+        background-image: url(https://i.postimg.cc/fyMnygb7/header3.jpg);
+        position: relative;
+        text-align: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+
+    }
+    .home::after {
+        content: '';
+        display: block;
+        height: 100%;
+        width: 100%;
+        margin-left:-30px ;
+        background-image: linear-gradient(to bottom, rgba(0,0,0,0.4), rgba(0,0,0,0.1));
+        position: absolute;
+        bottom: 0;
+    }
+    .display-4 {
+        font-family: 'Varela Round', sans-serif;
+    }
+    .side nav {
+        padding-top: 10px;
+    }
+
+    /* --------Navbar-------- */
+    .navbar {
+        background-color: #b3ccff !important;
+        margin-top: -33px;
+    }
+    .navbar .nav-link:hover {
+        color: white !important;
+        text-shadow: 1px 1px 1px rgba(102, 102, 102, 0.5);
+    }
+    .navbar .navbar-brand {
+        font-size: 30px;
+    }
+    .navbar a {
+        font-family: 'Varela Round', sans-serif;
+    }
+    .tombol a {
+        text-decoration: none !important;
+        color: black !important;
+    }
+    .tombol a:hover {
+        color: white !important;
+        
+    }
+
+    /* --------isi-------- */
+    .tentang {
+        font-size: 20px;
+    }
+    .f {
+        font-family: 'Varela Round', sans-serif;
+        font-size: 30px;
+        text-shadow: 0 1px 1px rgba(0,0,7, 0.4);
+    }
+    p {
+        font-family: 'Source Sans Pro', sans-serif;
+        font-size: 17px;
+    }
+    .main {
+        border: 1px solid #e6e6e6;
+        background-color: #ffffff;
+        padding: 15px;
+        margin-top: 10px;
+    }
+    .sidebar {
+        border: 1px solid #e6e6e6;
+        background-color: #ffffff;
+        margin-top: 20px;
+        padding: 20px;
+    }
+    .gambar {
+        margin-top: 40px;
+    }
+/*------- Home ------- */
+* Berita */
+    .berita  {
+        border-radius: 4px;
+        box-shadow: 0 0 1px rgba(0, 0, 0, 0.5);
+    }
+    .berita h3 {
+        font-weight: 600;
+        font-size: 18px;
+    }
+    .berita img {
+        width: 120px;
+        margin-right: 20px;
+        box-shadow: 2px 4px 7px rgba(0,0,7, 0.4);
+    }
+    .imgmid img {
+        width: 370px;
+        box-shadow: 2px 4px 7px rgba(0,0,7, 0.4);
+    }
+    .beritabold {
+        font-weight: 600px;
+        font-size: 30px;
+    }
+    .imgmid p{
+        font-size: 16px;
+        padding-top: 30px;
+    }
+    .nama {
+        font-size: 20px;
+        margin-top: 5px;
+    }
+    .jam {
+        font-size: 15px;
+        margin-top: -20px;
+
+        }
+    .side nav {
+        padding-top: 10px;
+    }
+/* /Berita *
+
+/* side bar */
+
+
+#body-row {
+    margin-left:0;
+    margin-right:0;
+}
+#sidebar-container {
+    min-height: 100vh;   
+    background-color: #333;
+    padding: 0;
+    /* coba */
+   
+}
+
+
+.sidebar-expanded {
+    width: 230px;
+}
+.sidebar-collapsed {
+    width: 60px;
+}
+
+
+#sidebar-container .list-group a {
+    height: 65px;
+    color: white;
+}
+
+
+#sidebar-container .list-group .sidebar-submenu a {
+    height: 45px;
+    padding-left: 30px;
+}
+.sidebar-submenu {
+    font-size: 0.9rem;
+}
+
+
+.sidebar-separator-title {
+    background-color: #333;
+    height: 35px;
+}
+.sidebar-separator {
+    background-color: #333;
+    height: 25px;
+}
+.logo-separator {
+    background-color: #333;    
+    height: 60px;
+}
+
+
+#sidebar-container .list-group .list-group-item[aria-expanded="false"] .submenu-icon::after {
+  content: " \f0d7";
+  font-family: FontAwesome;
+  display: inline;
+  text-align: right;
+  padding-left: 10px;
+}
+
+#sidebar-container .list-group .list-group-item[aria-expanded="true"] .submenu-icon::after {
+  content: " \f0da";
+  font-family: FontAwesome;
+  display: inline;
+  text-align: right;
+  padding-left: 10px;
+}
+
+/* Screen */
+@media screen and (max-height: 450px) {
+    #sidebar-container {padding-top: 15px;}
+    #sidebar-container {font-size: 18px;}
+  }
+/* main */
+
+/* Testimonial */
+.testimonial{
+
+    margin-top: 100px;   
+}
+
+.testimonial h5{
+
+    text-align: center;
+    font-weight: 200;
+    font-style: italic;
+    font-size: 24px;
+}
+
+.testimonial figure img{
+
+    width: 60px;
+    margin: 20px 10px 10px;
+    opacity: 0.6;
+   
+}
+
+.testimonial figure img.utama{
+
+    width: 100px;
+    opacity: 1;
+    margin-top: 10px;
+}
+
+.testimonial figure h5 {
+
+    font-size: 16px;
+    font-weight:bold;
+    font-style: normal;
+}
+.testimonial figure p{
+
+    font-size:12px;
+    color: #acacac;
+
+}
+
+.testimonial figcaption{
+
+    text-align: center;
+}
+ .kaki{
+    
+    margin-top: 100px;
+}
+.kaki p{
+
+    font-size: 18px;
+}
+
+
+
+/*     10. Testimonials     */
+
+
+/****************************/
+
+.slider {
+    padding-top: 6.375rem;
+    padding-bottom: 6.5rem;
+    background-color: #fbfbfb;
+}
+
+.slider h2 {
+    margin-bottom: 0.75rem;
+    text-align: center;
+}
+
+.slider .slider-container {
+    position: relative;
+}
+
+.slider .swiper-container {
+    position: static;
+    width: 90%;
+    text-align: center;
+}
+
+.slider .swiper-button-prev:focus,
+.slider .swiper-button-next:focus {
+    /* even if you can't see it chrome you can see it on mobile device */
+    outline: none;
+}
+
+.slider .swiper-button-prev {
+    left: -0.5rem;
+    background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%2028%2044'%3E%3Cpath%20d%3D'M0%2C22L22%2C0l2.1%2C2.1L4.2%2C22l19.9%2C19.9L22%2C44L0%2C22L0%2C22L0%2C22z'%20fill%3D'%23787976'%2F%3E%3C%2Fsvg%3E");
+    background-size: 1.125rem 1.75rem;
+}
+
+.slider .swiper-button-next {
+    right: -0.5rem;
+    background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%2028%2044'%3E%3Cpath%20d%3D'M27%2C22L27%2C22L5%2C44l-2.1-2.1L22.8%2C22L2.9%2C2.1L5%2C0L27%2C22L27%2C22z'%20fill%3D'%23787976'%2F%3E%3C%2Fsvg%3E");
+    background-size: 1.125rem 1.75rem;
+}
+
+.slider .card {
+    position: relative;
+    border: none;
+    background-color: transparent;
+}
+
+.slider .card-image {
+    width: 6rem;
+    height: 6rem;
+    margin-right: auto;
+    margin-bottom: 0.25rem;
+    margin-left: auto;
+    border-radius: 50%;
+}
+
+.slider .card .card-body {
+    padding-bottom: 0;
+}
+
+.slider .testimonial-text {
+    margin-bottom: 0.625rem;
+}
+
+.slider .testimonial-author {
+    color: #484a46;
+}
+
+
+/**********************/
