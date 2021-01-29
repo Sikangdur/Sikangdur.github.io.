@@ -1,6 +1,6 @@
 Tugas UAS Pemograman WEB
 SILOKERNF
-By : Muhammmad Ad Durroh Mubarok, Rahmat Arief, Indra Gunawan
+By : Muhammmad Ad Durroh Mubarok, Rahmat Arief, 
 
 
 Login  Admin 
